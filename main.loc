@@ -3,6 +3,7 @@ module char-cpp (*)
 import char
 import root-cpp
 
+%inline
 source Cpp from "char.hpp"
     ( "morloc_isUpper" as isUpper
     , "morloc_isLower" as isLower
