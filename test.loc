@@ -1,0 +1,4 @@
+module test-char-cpp (test)
+
+import char.test (test)
+import char-cpp
